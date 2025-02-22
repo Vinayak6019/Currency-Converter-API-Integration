@@ -11,34 +11,6 @@ This Spring Boot application fetches real-time exchange rates and performs curre
 
 ## 🔥 API Endpoints  
 
-### ⿡ Get Exchange Rates  
-*GET /api/rates?base=USD*  
-Fetches exchange rates for the given base currency (default: USD).  
-
-Response Example:
-```json
-{
-    "base": "USD",
-    "rates": {
-        "EUR": 0.92,
-        "INR": 82.50
-    }
-}
-
-```
-# Currency Converter API  
-
-## 📌 Overview  
-This Spring Boot application fetches real-time exchange rates and performs currency conversion using an external API.
-
-## 🚀 Technologies Used  
-- Java 17  
-- Spring Boot  
-- Maven  
-- RestTemplate  
-
-## 🔥 API Endpoints  
-
 ### 1. Get Exchange Rates  
 **GET /api/rates?base=USD**  
 Fetches exchange rates for the given base currency (default: USD).  
